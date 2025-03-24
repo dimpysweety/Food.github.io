@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate</title>
+    <link rel="stylesheet" href="chatgptproject.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="restaurants.html">Restaurants</a></li>
+                <li><a href="donation.html">Donate</a></li>
+                <li><a href="volunteer.html">Volunteer</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2>Donate to Help Fight Hunger</h2>
+        <p>Your donations make a real difference.</p>
+
+        <form id="donation-form" action="C:\Users\yasas\OneDrive\Desktop\process_donation.php" method="post">
+            <label for="amount">Donation Amount:</label>
+            <input type="number" id="amount" name="amount" min="1" required><br><br>
+
+            <label for="payment">Payment Method:</label>
+            <select id="payment" name="payment">
+                <option value="credit">Credit Card</option>
+                <option value="paypal">PayPal</option>
+                <option value="upi">UPI</option>
+            </select><br><br>
+
+            <input type="submit" value="Donate Now" class="button">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Hunger Relief Initiative</p>
+    </footer>
+
+    <script src="chatgptpro(frontend).js"></script>
+</body>
+
+</html>

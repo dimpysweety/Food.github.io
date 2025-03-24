@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer</title>
+    <link rel="stylesheet" href="chatgptproject.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="restaurants.html">Restaurants</a></li>
+                <li><a href="donation.html">Donate</a></li>
+                <li><a href="volunteer.html">Volunteer</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2>Become a Volunteer</h2>
+        <p>Join our team and help us make a difference.</p>
+
+        <form id="volunteer-form" action="process_volunteer.php" method="post">
+            <label for="volunteerName">Your Name:</label>
+            <input type="text" id="volunteerName" name="volunteerName" required><br><br>
+
+            <label for="volunteerEmail">Your Email:</label>
+            <input type="email" id="volunteerEmail" name="volunteerEmail" required><br><br>
+
+            <label for="volunteerPhone">Your Phone:</label>
+            <input type="tel" id="volunteerPhone" name="volunteerPhone" required><br><br>
+
+            <label for="volunteerArea">Area you want to volunteer:</label>
+            <input type="text" id="volunteerArea" name="volunteerArea" required><br><br>
+
+            <input type="submit" value="Sign Up" class="button">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Hunger Relief Initiative</p>
+    </footer>
+
+    <script src="chatgptpro(frontend).js"></script>
+</body>
+
+</html>

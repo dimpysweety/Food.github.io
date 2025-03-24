@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Restaurant A",
+        "address": "123 Main St",
+        "foodTypes": ["Italian", "Pizza"],
+        "prepTime": "10:00 AM",
+        "contact": "+1234567890"
+    },
+    {
+        "name": "Restaurant B",
+        "address": "456 Oak Ave",
+        "foodTypes": ["Indian", "Curry"],
+        "prepTime": "11:00 AM",
+        "contact": "+9876543210"
+    }
+    // More restaurant objects can be added
+]
